@@ -41,7 +41,7 @@ def comment_prediction(comment):
     comment_tti = torch.tensor(0, dtype=torch.long)
     model = ToxicModel(CONFIG['model_name'])
     model.to(CONFIG['device'])
-    model.load_state_dict(torch.load('/Users/aryanlath/Downloads/Toxic/Epoch-2.bin', map_location = torch.device('cpu')))
+    model.load_state_dict(torch.load('Epoch-2.bin', map_location = torch.device('cpu')))
     outputs = model(comment_in.to(CONFIG['device'], dtype = torch.long) , comment_am.to(CONFIG['device'], dtype = torch.long), comment_tti.to(CONFIG['device'], dtype = torch.long))
     outputs = np.array(torch.sigmoid(outputs).cpu().detach().numpy())
     toxic_preds.append(outputs) 
