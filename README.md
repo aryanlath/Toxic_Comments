@@ -1,5 +1,5 @@
 
-# TOXIC COMMENT ANALYSIS
+# Project Title
 
 This Project involves rating a comment on 6 different levels of Toxicity
 
@@ -37,3 +37,9 @@ Start the server
 ```
 
 
+
+## Authors
+
+- [@aryan-lath](https://github.com/aryanlath)
+- [@aditya-gupta](https://github.com/aditya-gupta-04)
+- [@devansh-bhardwaj](https://github.com/devansh-bhardwaj)
