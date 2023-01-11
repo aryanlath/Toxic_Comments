@@ -40,6 +40,6 @@ Start the server
 
 ## Authors
 
-- [@aryan-lath](https://github.com/aryanlath)
 - [@aditya-gupta](https://github.com/aditya-gupta-04)
+- [@aryan-lath](https://github.com/aryanlath)
 - [@devansh-bhardwaj](https://github.com/devansh-bhardwaj)
